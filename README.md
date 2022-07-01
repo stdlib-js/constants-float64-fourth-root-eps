@@ -24,14 +24,30 @@ limitations under the License.
 
 > [Fourth root][nth-root] of [double-precision floating-point epsilon][@stdlib/constants/float64/eps].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64-fourth-root-eps
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import FLOAT64_FOURTH_ROOT_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-root-eps@deno/mod.js';
+var FLOAT64_FOURTH_ROOT_EPS = require( '@stdlib/constants-float64-fourth-root-eps' );
 ```
 
 #### FLOAT64_FOURTH_ROOT_EPS
@@ -54,7 +70,7 @@ var bool = ( FLOAT64_FOURTH_ROOT_EPS === 0.0001220703125 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import FLOAT64_FOURTH_ROOT_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-root-eps@deno/mod.js';
+var FLOAT64_FOURTH_ROOT_EPS = require( '@stdlib/constants-float64-fourth-root-eps' );
 
 var out = FLOAT64_FOURTH_ROOT_EPS;
 // returns 0.0001220703125
@@ -87,7 +103,7 @@ var out = FLOAT64_FOURTH_ROOT_EPS;
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -143,6 +159,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/constants-float64-fourth-root-eps/tree/deno
 [umd-url]: https://github.com/stdlib-js/constants-float64-fourth-root-eps/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-float64-fourth-root-eps/tree/esm
+[branches-url]: https://github.com/stdlib-js/constants-float64-fourth-root-eps/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-fourth-root-eps/main/LICENSE
 
@@ -150,7 +167,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float64/eps]: https://github.com/stdlib-js/constants-float64-eps/tree/deno
+[@stdlib/constants/float64/eps]: https://github.com/stdlib-js/constants-float64-eps
 
 <!-- </related-links> -->
 
