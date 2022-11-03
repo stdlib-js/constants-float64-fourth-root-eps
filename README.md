@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import FOURTH_ROOT_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-root-eps@esm/index.mjs';
+import FOURTH_ROOT_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-root-eps@v0.0.8-esm/index.mjs';
 ```
 
 #### FOURTH_ROOT_EPS
@@ -59,7 +59,7 @@ var bool = ( FOURTH_ROOT_EPS === 0.0001220703125 );
 <body>
 <script type="module">
 
-import FOURTH_ROOT_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-root-eps@esm/index.mjs';
+import FOURTH_ROOT_EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-root-eps@v0.0.8-esm/index.mjs';
 
 var out = FOURTH_ROOT_EPS;
 // returns 0.0001220703125
