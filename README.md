@@ -35,38 +35,30 @@ limitations under the License.
 
 > [Fourth root][nth-root] of [double-precision floating-point epsilon][@stdlib/constants/float64/eps].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64-fourth-root-eps
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-FOURTH_ROOT_EPS = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-root-eps@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var FOURTH_ROOT_EPS = require( 'path/to/vendor/umd/constants-float64-fourth-root-eps/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-root-eps@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.FOURTH_ROOT_EPS;
-})();
-</script>
+var FOURTH_ROOT_EPS = require( '@stdlib/constants-float64-fourth-root-eps' );
 ```
 
 #### FOURTH_ROOT_EPS
@@ -88,21 +80,11 @@ var bool = ( FOURTH_ROOT_EPS === 0.0001220703125 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-root-eps@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var FOURTH_ROOT_EPS = require( '@stdlib/constants-float64-fourth-root-eps' );
 
 var out = FOURTH_ROOT_EPS;
 // returns 0.0001220703125
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -111,7 +93,57 @@ var out = FOURTH_ROOT_EPS;
 
 <!-- C interface documentation. -->
 
+* * *
 
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/constants/float64/fourth_root_eps.h"
+```
+
+#### STDLIB_CONSTANT_FLOAT64_FOURTH_ROOT_EPS
+
+Macro for the [fourth root][nth-root] of [double-precision floating-point epsilon][@stdlib/constants/float64/eps].
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -153,7 +185,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -200,7 +232,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float64/eps]: https://github.com/stdlib-js/constants-float64-eps/tree/umd
+[@stdlib/constants/float64/eps]: https://github.com/stdlib-js/constants-float64-eps
 
 <!-- </related-links> -->
 
