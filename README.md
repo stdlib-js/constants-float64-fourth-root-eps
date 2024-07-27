@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+FOURTH_ROOT_EPS = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-root-eps@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-fourth-root-eps/tags). For example,
+
+```javascript
 FOURTH_ROOT_EPS = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-root-eps@v0.2.2-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var FOURTH_ROOT_EPS = require( 'path/to/vendor/umd/constants-float64-fourth-root
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-root-eps@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-root-eps@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -92,7 +97,7 @@ var bool = ( FOURTH_ROOT_EPS === 0.0001220703125 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-root-eps@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-fourth-root-eps@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
