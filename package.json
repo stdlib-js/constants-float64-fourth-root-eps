@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float64-fourth-root-eps",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Fourth root of double-precision floating-point epsilon.",
   "license": "Apache-2.0",
   "author": {
@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@stdlib/math-base-special-pow": "^0.3.0",
-    "@stdlib/math-base-special-sqrt": "^0.2.2",
+    "@stdlib/math-base-special-sqrt": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
