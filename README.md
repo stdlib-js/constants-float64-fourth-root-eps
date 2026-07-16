@@ -29,7 +29,7 @@ limitations under the License.
   <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
 </details>
 
-# FOURTH_ROOT_EPS
+# FLOAT64_FOURTH_ROOT_EPS
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
@@ -60,15 +60,15 @@ To view installation and usage instructions specific to each branch build, be su
 ## Usage
 
 ```javascript
-var FOURTH_ROOT_EPS = require( '@stdlib/constants-float64-fourth-root-eps' );
+var FLOAT64_FOURTH_ROOT_EPS = require( '@stdlib/constants-float64-fourth-root-eps' );
 ```
 
-#### FOURTH_ROOT_EPS
+#### FLOAT64_FOURTH_ROOT_EPS
 
 [Fourth root][nth-root] of [double-precision floating-point epsilon][@stdlib/constants/float64/eps].
 
 ```javascript
-var bool = ( FOURTH_ROOT_EPS === 0.0001220703125 );
+var bool = ( FLOAT64_FOURTH_ROOT_EPS === 0.0001220703125 );
 // returns true
 ```
 
@@ -83,9 +83,9 @@ var bool = ( FOURTH_ROOT_EPS === 0.0001220703125 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var FOURTH_ROOT_EPS = require( '@stdlib/constants-float64-fourth-root-eps' );
+var FLOAT64_FOURTH_ROOT_EPS = require( '@stdlib/constants-float64-fourth-root-eps' );
 
-var out = FOURTH_ROOT_EPS;
+var out = FLOAT64_FOURTH_ROOT_EPS;
 // returns 0.0001220703125
 ```
 
